@@ -1,0 +1,24 @@
+{
+  "name": "google-cloud-common",
+  "version": "0.1.0",
+  "description": "Common interfaces and utilities that follows Google Cloud API design guide",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["/dist"],
+  "engines": {
+    "node": ">=20.10.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["google", "google-api", "design", "utility"],
+  "author": "Chao Tzu-Hsien <danny@mreg.io> (https://github.com/ZhaoTzuHsien)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mreg-io/google-cloud-common.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

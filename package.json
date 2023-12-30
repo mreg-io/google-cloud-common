@@ -1,6 +1,6 @@
 {
   "name": "google-cloud-common",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Common interfaces and utilities that follows Google Cloud API design guide",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

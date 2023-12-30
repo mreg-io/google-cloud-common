@@ -48,7 +48,7 @@ export interface ErrorInfo {
     // {"instanceLimit": "100/request"}, should be returned as,
     // {"instanceLimitPerRequest": "100"}, if the client exceeds the number of
     // instances that can be created in a single (batch) request.
-    metadata: Map<string, string>;
+    metadata: Record<string, string>;
 }
 
 // Describes when the clients can retry a failed request. Clients could ignore
